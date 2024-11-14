@@ -3,7 +3,7 @@
 
 ## ℹ️ About 
 
-This repository is a collection of problem solutions and example files from the book *Problem Solving with C* by M.T. Somashekara, tailored specifically for students of the Department of Computer Science and Engineering at Jahangirnagar University. Created by **CSE Batch 33** of Jahangirnagar University, this repository is designed to support students with their assignments, practice exercises, and coding skills in C programming. We hope it serves as a valuable resource in your journey to mastering C programming! ✨
+This repository is a collection of problem solutions and example files from the book *Problem Solving with C* by M.T. Somashekara, tailored specifically for students of the Department of Computer Science and Engineering at Jahangirnagar University. Created by **CSE-33 batch** of Jahangirnagar University, this repository is designed to support students with their assignments, practice exercises, and coding skills in C programming. We hope it serves as a valuable resource in your journey to mastering C programming! ✨
 
 Thank you for exploring our repository, and happy coding! 😊
 
