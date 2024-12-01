@@ -22,7 +22,12 @@ Assuming that you are complete begginer in comuputer science we will be starting
    ```bash
    git --version
    ```
+3. **Configure global Email and Username**
 
+   ```bash
+   git config --global user.name "Your Name"
+   git config --global user.email "your.email@example.com"
+   ```
 ### Cloning the Repository
 
 1. **Open a Terminal or Command Prompt.**
