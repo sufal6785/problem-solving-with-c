@@ -27,6 +27,7 @@ Assuming that you are complete begginer in comuputer science we will be starting
    ```bash
    git config --global user.name "Your Name"
    ```
+   
    ```bash
    git config --global user.email "your.email@example.com"
    ```
