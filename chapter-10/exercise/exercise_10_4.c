@@ -1,34 +1,21 @@
 #include <stdio.h>
 
 int main() {
-    int n;
-    printf("Input n = ");
-    scanf("%d", &n);
-    int arr[n][n];
+    int arr[11] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+    int pos, element;
 
-    // Input the elements of the matrix
-    for (int i = 0; i < n; i++) {
-        for (int j = 0; j < n; j++) {
-            scanf("%d", &arr[i][j]);
-        }
-    }
+    printf("Enter the position (1-11) and element to insert: ");
+    scanf("%d %d", &pos, &element);
 
-    int temp;
-    for (int i = 0; i < n; i++) {
-        for (int j = i + 1; j < n; j++) { 
-            temp = arr[i][j];
-            arr[i][j] = arr[j][i];
-            arr[j][i] = temp;
-        }
+    for (int i = 10; i >= pos; i--) {
+        arr[i] = arr[i - 1];
     }
+    arr[pos - 1] = element;
 
-    printf("Transposed Matrix: \n");
-    for (int i = 0; i < n; i++) {
-        for (int j = 0; j < n; j++) {
-            printf("%d ", arr[i][j]);
-        }
-        printf("\n");
+    for (int i = 0; i < 11; i++) {
+        printf("%d ", arr[i]);
     }
+    printf("\n");
 
     return 0;
 }
