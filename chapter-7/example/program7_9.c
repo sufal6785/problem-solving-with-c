@@ -28,8 +28,7 @@ int main()
 		printf("Eight");
 	else if(digit==9)
 		printf("Nine");
-	else
-		printf("Not a digit");
+	else	printf("Not a digit");
 
 	return(0);
 }
